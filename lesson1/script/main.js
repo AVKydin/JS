@@ -50,9 +50,9 @@ console.log('**************************************');
 }
 console.log('**************************************');
 {
-    let firstName = prompt(`Введіть ім'я`);
-    let middleName = prompt(`Введіть по батькові`);
-    let age = +prompt(`Введіть вік`);
+    let firstName = prompt(`Введіть Ваше ім'я`);
+    let middleName = prompt(`Введіть Ваше по батькові`);
+    let age = +prompt(`Введіть Ваш вік`);
 
     let person = `${firstName} ${middleName} ${age}`
 
