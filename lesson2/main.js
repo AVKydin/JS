@@ -39,19 +39,34 @@ let book4 = {
     title: 'THE LORD OF THE RINGS: THE FELLOWSHIP OF THE RING',
     pageCount: 448,
     genre: 'fantasy',
-    authors: ['John Ronald Reuel Tolkien', 81],
+    authors: [
+        {
+            name: 'John Ronald Reuel Tolkien',
+            age: 81,
+        }
+        ],
 }
 let book5 = {
     title: 'Марія',
     pageCount: 224,
     genre: 'роман-хроніка',
-    authors: ['Улас Самчук', 82],
+    authors: [
+        {
+            name: 'Улас Самчук',
+            age: 82,
+        }
+        ],
 }
 let book6 = {
     title: 'Tомек в країні кенгуру',
     pageCount: 344,
     genre: 'пригоди',
-    authors: ['Альфред Шклярський', 80],
+    authors: [
+        {
+            name: 'Альфред Шклярський',
+            age: 80,
+        },
+    ],
 }
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
