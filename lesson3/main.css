@@ -1,0 +1,17 @@
+.product-card{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.product-title{
+    text-transform: uppercase;
+    color: gray;
+}
+
+.product-image{
+
+    width: 200px;
+}
