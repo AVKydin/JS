@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="edits HWL2" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="HWL3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +61,7 @@
       <workItem from="1675288122144" duration="4682000" />
       <workItem from="1675318826405" duration="3105000" />
       <workItem from="1675340223512" duration="291000" />
+      <workItem from="1675453512281" duration="7782000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675340509451</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HWL3">
+      <created>1675461563943</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675461563943</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +155,7 @@
     <MESSAGE value="that's all for today" />
     <MESSAGE value="end HWL2" />
     <MESSAGE value="edits HWL2" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits HWL2" />
+    <MESSAGE value="HWL3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HWL3" />
   </component>
 </project>
