@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="completed HWL4 or not...">
-      <change afterPath="$PROJECT_DIR$/lesson3/additional.js" afterDir="false" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="start additional tasks HWL3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,8 @@
       <workItem from="1675340223512" duration="291000" />
       <workItem from="1675453512281" duration="7782000" />
       <workItem from="1675617093004" duration="8449000" />
-      <workItem from="1675791189423" duration="3384000" />
+      <workItem from="1675791189423" duration="8156000" />
+      <workItem from="1675806667244" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675639331706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="start additional tasks HWL3">
+      <created>1675798802690</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675798802690</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,7 @@
     <MESSAGE value="edits HWL2" />
     <MESSAGE value="HWL3" />
     <MESSAGE value="completed HWL4 or not..." />
-    <option name="LAST_COMMIT_MESSAGE" value="completed HWL4 or not..." />
+    <MESSAGE value="start additional tasks HWL3" />
+    <option name="LAST_COMMIT_MESSAGE" value="start additional tasks HWL3" />
   </component>
 </project>
