@@ -282,11 +282,11 @@ while (j<usersList.length){
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 
-for (const listOfItem of listOfItems) {
     document.write(`<ul>`);
-        document.write(`<li>${listOfItem}</li>`);
+        for (const listOfItem of listOfItems) {
+                document.write(`<li>${listOfItem}</li>`);
+        }
     document.write(`</ul>`);
-}
 
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
@@ -387,6 +387,8 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
+
+
 document.write(`<div><h2>status: true</h2></div>`)
 for (const user of users) {
         if(user.status){
@@ -407,27 +409,3 @@ for (const user of users) {
         document.write(`<div>${user.name}</div>`)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
