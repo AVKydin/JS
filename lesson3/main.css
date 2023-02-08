@@ -18,7 +18,7 @@
 
 .users-box{
     display: flex;
-    width: 900px;
+    width: 95vw;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -38,7 +38,7 @@
 }
 
 .wrap{
-    width: 1500px;
+    width: 95vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
