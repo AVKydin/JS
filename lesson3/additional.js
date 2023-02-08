@@ -198,19 +198,189 @@ const arrNumber = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
         }
     }
 }
-
-
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+{
+    const arr = [];
+    arr[0] = 54;
+    arr[1] = 'dfgdsfg';
+    arr[2] = -555;
+    arr[3] = 67;
+    arr[4] = null;
+    arr[5] = 'kva';
+    arr[6] = true;
+    arr[7] = 'bla';
+    arr[8] = 5;
+    arr[9] = 4;
+    for (const arrElement of arr) {
+        console.log(arrElement);
+    }
+}
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+{
+    for (let i = 0; i < 10; i++) {
+        console.log('поточний номер кроку -',  i);
+        document.write(`<div>поточний номер кроку -  ${i}</div>`)
+    }
+}
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+{
+    for (let i = 1; i <= 100; i++) {
+        console.log('поточний номер кроку -',  i);
+        document.write(`<div>поточний номер кроку -  ${i}</div>`)
+    }
+}
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+{
+    for (let i = 1; i <= 100; i+=2) {
+        console.log('поточний номер кроку -',  i);
+        document.write(`<div>поточний номер кроку -  ${i}</div>`)
+    }
+}
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+{
+    for (let i = 1; i <= 100; i++) {
+        if(i%2===0){
+            console.log('поточний номер кроку -', i);
+            document.write(`<div>поточний номер кроку -  ${i}</div>`)
+        }
+    }
+}
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
-
+{
+    for (let i = 1; i <= 100; i++) {
+        if(i%2!==0){
+            console.log('поточний номер кроку -', i);
+            document.write(`<div>поточний номер кроку -  ${i}</div>`)
+        }
+    }
+}
 
 // стоврити масив книжок (назва, кількість сторінок, автори , жанри).
+ const arrBooks = [
+     {
+    title: 'THE LORD OF THE RINGS: THE FELLOWSHIP OF THE RING',
+    pageCount: 448,
+    genre: ['fantasy', 'fdsgdfg'],
+    authors: [
+        {
+            name: 'John Ronald Reuel Tolkien',
+            age: 81,
+        },
+        {
+            name: 'John Tolkien',
+            age: 81,
+        }
+    ],
+},
+ {
+    title: 'Марія',
+    pageCount: 224,
+    genre: ['роман-хроніка', 'sdfsdfsd', 'dfsdfsd', 'dsf'],
+    authors: [
+        {
+            name: 'Улас Самчук',
+            age: 82,
+        }
+    ],
+},
+{
+    title: 'Tомек в країні кенгуру',
+    pageCount: 344,
+    genre: ['пригоди'],
+    authors: [
+        {
+            name: 'Альфред Шклярський',
+            age: 80,
+        },
+    ],
+}
+]
 // -знайти наібльшу книжку.
+    let maxPages = 0;
+for (let i=0; i< arrBooks.length; i++) {
+    if(arrBooks[i].pageCount>maxPages){
+        maxPages = arrBooks[i].pageCount;
+    }
+}
+for (const book of arrBooks) {
+    if(book.pageCount===maxPages){
+        console.log('найбільша книжка -', book.title)
+    }
+}
+console.log(maxPages)
 // - знайти книжку/ки з найбільшою кількістю жанрів
+let maxGenres=0;
+for (let i = 0; i < arrBooks.length; i++) {
+    if(arrBooks[i].genre.length>maxGenres){
+        maxGenres = arrBooks[i].genre.length;
+    }
+}
+for (const book of arrBooks) {
+    if(book.genre.length === maxGenres){
+        console.log('найбільша кількість жанрів в -', book.title)
+    }
+}
+console.log(maxGenres)
 // - знайти книжку/ки з найдовшою назвою
+let maxTitle = 0;
+for (const book of arrBooks) {
+    if(book.title.length>maxTitle){
+        maxTitle = book.title.length;
+    }
+}
+for (const book of arrBooks) {
+    if(book.title.length === maxTitle){
+        console.log('книжка із найдовшою назвою -', book.title)
+    }
+}
 // - знайти книжку/ки які писали 2 автори
+let twoAuthors = 0;
+for (const book of arrBooks) {
+    if(book.authors.length===2){
+        console.log('книжка, написана двома авторами -', book.title)
+    }
+}
 // - знайти книжку/ки які писав 1 автор
+let oneAutor = [];
+
+for (const book of arrBooks) {
+    if(book.authors.length===1){
+        oneAutor[oneAutor.length]=book.title;
+        console.log('книжка, написана одним автором -', book.title)
+    }
+}
+console.log(oneAutor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

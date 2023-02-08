@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="start additional tasks HWL3">
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="for today, it is enough to complete the additional tasks of the third lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1675453512281" duration="7782000" />
       <workItem from="1675617093004" duration="8449000" />
       <workItem from="1675791189423" duration="8156000" />
-      <workItem from="1675806667244" duration="906000" />
+      <workItem from="1675806667244" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675798802690</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="for today, it is enough to complete the additional tasks of the third lesson">
+      <created>1675807901436</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675807901436</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +184,7 @@
     <MESSAGE value="HWL3" />
     <MESSAGE value="completed HWL4 or not..." />
     <MESSAGE value="start additional tasks HWL3" />
-    <option name="LAST_COMMIT_MESSAGE" value="start additional tasks HWL3" />
+    <MESSAGE value="for today, it is enough to complete the additional tasks of the third lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="for today, it is enough to complete the additional tasks of the third lesson" />
   </component>
 </project>
