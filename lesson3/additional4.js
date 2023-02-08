@@ -3,7 +3,7 @@
 {
     const arr = [];
     for (let i = 0; i < (arr.length = 50); i++) {
-        if (i % 2 == 0) {
+        if (i % 2 === 0) {
             arr[i] = i;
         } else {
             arr[i] = i + 51;
@@ -15,7 +15,7 @@
 {
     const arr = [];
     for (let i = 0; i < 50; i += 1) {
-        if (i % 2 != 0) {
+        if (i % 2 !== 0) {
             arr[i] = i;
         } else {
             arr[i] = i + 53;
