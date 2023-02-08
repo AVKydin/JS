@@ -36,3 +36,16 @@
 .address-block{
     color: blueviolet;
 }
+
+.wrap{
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.post-card{
+    width: 18%;
+    text-align: justify;
+}
