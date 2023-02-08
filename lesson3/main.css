@@ -15,3 +15,24 @@
 
     width: 200px;
 }
+
+.users-box{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.user-block{
+    width: 49%;
+    border: 1px dashed silver;
+    border-radius: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.address-block{
+    color: blueviolet;
+}
