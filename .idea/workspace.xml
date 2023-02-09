@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="finished additional2 tasks of the 3rd lesson" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="finished additional4 tasks of the 3rd lesson">
+      <change afterPath="$PROJECT_DIR$/training/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +72,9 @@
       <workItem from="1675791189423" duration="8156000" />
       <workItem from="1675806667244" duration="1453000" />
       <workItem from="1675838749178" duration="8850000" />
+      <workItem from="1675862873339" duration="11672000" />
+      <workItem from="1675934907159" duration="2911000" />
+      <workItem from="1675964199388" duration="7251000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -186,7 +195,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675850474606</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished additional3 tasks of the 3rd lesson">
+      <created>1675863409007</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675863409007</updated>
+    </task>
+    <task id="LOCAL-00019" summary="finished additional4 tasks of the 3rd lesson">
+      <created>1675876720215</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675876720215</updated>
+    </task>
+    <task id="LOCAL-00020" summary="finished additional4 tasks of the 3rd lesson">
+      <created>1675876752915</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675876752915</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +238,8 @@
     <MESSAGE value="finished with the first additional tasks of the 3rd lesson" />
     <MESSAGE value="start additional2 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional2 tasks of the 3rd lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished additional2 tasks of the 3rd lesson" />
+    <MESSAGE value="finished additional3 tasks of the 3rd lesson" />
+    <MESSAGE value="finished additional4 tasks of the 3rd lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished additional4 tasks of the 3rd lesson" />
   </component>
 </project>

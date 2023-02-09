@@ -334,7 +334,7 @@ for (const book of arrBooks) {
     }
 }
 // - знайти книжку/ки які писали 2 автори
-let twoAuthors = 0;
+// let twoAuthors = 0;
 for (const book of arrBooks) {
     if(book.authors.length===2){
         console.log('книжка, написана двома авторами -', book.title)
