@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="additional tasks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="pause №2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +70,7 @@
       <workItem from="1675934907159" duration="2911000" />
       <workItem from="1675964199388" duration="8012000" />
       <workItem from="1676019292144" duration="2395000" />
+      <workItem from="1676106090649" duration="11641000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -221,7 +219,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675975105112</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="start HWL5">
+      <created>1676120263828</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676120263828</updated>
+    </task>
+    <task id="LOCAL-00023" summary="start HWL5">
+      <created>1676121100644</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121100644</updated>
+    </task>
+    <task id="LOCAL-00024" summary="finished HWL5">
+      <created>1676121905007</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121905007</updated>
+    </task>
+    <task id="LOCAL-00025" summary="pause">
+      <created>1676133406116</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676133406116</updated>
+    </task>
+    <task id="LOCAL-00026" summary="pause №2">
+      <created>1676135603864</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676135603864</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +279,22 @@
     <MESSAGE value="finished additional3 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional4 tasks of the 3rd lesson" />
     <MESSAGE value="additional tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional tasks" />
+    <MESSAGE value="start HWL5" />
+    <MESSAGE value="finished HWL5" />
+    <MESSAGE value="pause" />
+    <MESSAGE value="pause №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="pause №2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/training/main.js</url>
+          <line>198</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
