@@ -110,13 +110,14 @@ let users = [
 
 const writeArrObj = (arr) => {
     for (const argument of arr) {
-        document.write(`<h3>${argument.name}</h3>`)
-        document.write(`<ul>`)
-        for (const argumentKey in argument) {
-            document.write(`<li>${argumentKey} - ${argument[argumentKey]}</li>`)
-        }
-        document.write(`</ul>`)
-
+        document.write(`<div>`)
+            document.write(`<h3>${argument.name}</h3>`)
+            document.write(`<ul>`)
+            for (const argumentKey in argument) {
+                document.write(`<li>${argumentKey} - ${argument[argumentKey]}</li>`)
+            }
+            document.write(`</ul>`)
+        document.write(`</div>`)
     }
 }
 
