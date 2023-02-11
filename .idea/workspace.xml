@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="finished additional4 tasks of the 3rd lesson">
-      <change afterPath="$PROJECT_DIR$/training/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="additional tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/training/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,8 @@
       <workItem from="1675838749178" duration="8850000" />
       <workItem from="1675862873339" duration="11672000" />
       <workItem from="1675934907159" duration="2911000" />
-      <workItem from="1675964199388" duration="7251000" />
+      <workItem from="1675964199388" duration="8012000" />
+      <workItem from="1676019292144" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -216,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675876752915</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="additional tasks">
+      <created>1675975105112</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675975105112</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +245,7 @@
     <MESSAGE value="finished additional2 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional3 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional4 tasks of the 3rd lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished additional4 tasks of the 3rd lesson" />
+    <MESSAGE value="additional tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional tasks" />
   </component>
 </project>
