@@ -1,6 +1,6 @@
 // ВСЕ ЗРОБИТИ СТРІЛОЧНИМИ ФУНКЦІЯМИ!
 //     - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-    const areaOfTheRectangle = (a,b) => a*b;
+const areaOfTheRectangle = (a, b) => a * b;
 
 console.log(areaOfTheRectangle(2, 3));
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
@@ -77,26 +77,65 @@ let users = [
 const writeArrObj = (arr) => {
     for (const argument of arr) {
         document.write(`<div>`)
-            document.write(`<h3>${argument.name}</h3>`)
-            document.write(`<ul>`)
-            for (const argumentKey in argument) {
-                document.write(`<li>${argumentKey} - ${argument[argumentKey]}</li>`)
-            }
-            document.write(`</ul>`)
+        document.write(`<h3>${argument.name}</h3>`)
+        document.write(`<ul>`)
+        for (const argumentKey in argument) {
+            document.write(`<li>${argumentKey} - ${argument[argumentKey]}</li>`)
+        }
+        document.write(`</ul>`)
         document.write(`</div>`)
     }
 }
 
 writeArrObj(users);
 // - створити функцію яка повертає найменьше число з масиву
+const arrNumbers = [155, 55, 34, 78, 100500, 0, 21, -7, 555, -500, -Infinity];
+const minNunber = (arr) => {
+    let min = arr[0];
+    for (const i of arr) {
+        if (i < min) {
+            min = i;
+        }
+    }
+    return min;
+}
+
+console.log(minNunber(arrNumbers))
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+const sum = (arr) => {
+    let sum = 0;
+    for (const i of arr) {
+        sum += i
+    }
+    return sum;
+}
+
+console.log(sum([1, 2, 10]))
+
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+const swapPlaces = (arr, index1, index2) => {
+    let a = arr[index1];
+    arr[index1] = arr[index2];
+    arr[index2] = a;
+    return arr;
+}
+
+console.log(swapPlaces([11, 22, 33, 44], 3, 1));
+
+
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
 
+const exchange = (sumUAH, currencyValues, exchangeCurrency) => {
+    for (const element of currencyValues) {
+        if (exchangeCurrency === element['currency']) {
+            return sumUAH / element['value'];
+        }
+    }
+}
 
-
+console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', value: 42}, {currency: 'GBP',value: 49}], 'EUR'));
 
 
 
