@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="pause №2" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="start HWL6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,6 +71,7 @@
       <workItem from="1675964199388" duration="8012000" />
       <workItem from="1676019292144" duration="2395000" />
       <workItem from="1676106090649" duration="11641000" />
+      <workItem from="1676154313140" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676135603864</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="start HWL6">
+      <created>1676154652292</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676154652292</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +291,8 @@
     <MESSAGE value="finished HWL5" />
     <MESSAGE value="pause" />
     <MESSAGE value="pause №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="pause №2" />
+    <MESSAGE value="start HWL6" />
+    <option name="LAST_COMMIT_MESSAGE" value="start HWL6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,7 +300,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/training/main.js</url>
           <line>198</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

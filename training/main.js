@@ -198,15 +198,19 @@
 
     const num = prompt('Введіть число чотиризначне число');
     if (isNaN(num)){
-        console.log('не число')
-    } else if (num%2===0){
+        alert('не число');
+    } else if (Number(num)){
+        alert('dfsgdfsg')
         const numbers =[];
         for (let i = 2; i < 11; i++) {
             if (num%i===0){
                 numbers.push(i);
             }
         }
-        console.log(numbers)
+        console.log(numbers);
+        for (const number of numbers) {
+            
+        }
         let string = num + '';
         let multiplication = string[0]*string[1]*string[2]*string[3];
         console.log(`Число парне. Добуток його цифр = ${multiplication}`)

@@ -1,21 +1,66 @@
 // - Знайти та вивести довижину настипних стрінгових значень
 // 'hello world', 'lorem ipsum', 'javascript is cool'
+{
+    const hello = 'hello world';
+    const lorem = 'lorem ipsum';
+    const js = 'javascript is cool';
+    console.log(hello.length);
+    console.log(lorem.length);
+    console.log(js.length)
+}
 // - Перевести до великого регістру наступні стрінгові значення
 // 'hello world', 'lorem ipsum', 'javascript is cool'
+{
+    const hello = 'hello world';
+    const lorem = 'lorem ipsum';
+    const js = 'javascript is cool';
+    console.log(hello.toUpperCase());
+    console.log(lorem.toUpperCase());
+    console.log(js.toUpperCase())
+}
 // - Перевести до нижнього регістру настипні стрінгові значення
 // 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
+{
+    const hello = 'HELLO WORLD';
+    const lorem = 'LOREM IPSUM';
+    const js = 'JAVASCRIPT IS COOL';
+    console.log(hello.toLowerCase());
+    console.log(lorem.toLowerCase());
+    console.log(js.toLowerCase())
+}
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+{
+    let str = ' dirty string   ';
+    console.log(str.trim());
+}
 //
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 //     let str = 'Ревуть воли як ясла повні';
 // let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
-//
+{
+    let str = 'Ревуть воли як ясла повні';
+    const stringToArray = (str)=> str.split(' ');
+    console.log(stringToArray(str))
+}
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
+{
+    const arr = [10,8,-7,55,987,-1011,0,1050,0];
+    const arrStr = arr.map(x=>x+"");
+    console.log(arrStr);
+}
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 //     let nums = [11,21,3];
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
-//
+{
+    let nums = [11,21,3];
+    const sortNums = (nums, arg)=>{
+        if (arg==='ascending'){
+
+        }
+    }
+}
+
 // ==========================
 // - є масив
 // let coursesAndDurationArray = [
