@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="start HWL6" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="pause additional2.js">
+      <change afterPath="$PROJECT_DIR$/TasksSavchukIT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TasksSavchukIT/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +76,8 @@
       <workItem from="1676019292144" duration="2395000" />
       <workItem from="1676106090649" duration="11641000" />
       <workItem from="1676154313140" duration="293000" />
+      <workItem from="1676200115382" duration="16245000" />
+      <workItem from="1676276544643" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -262,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676154652292</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="pause additional2.js">
+      <created>1676230288907</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676230288947</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +305,8 @@
     <MESSAGE value="pause" />
     <MESSAGE value="pause №2" />
     <MESSAGE value="start HWL6" />
-    <option name="LAST_COMMIT_MESSAGE" value="start HWL6" />
+    <MESSAGE value="pause additional2.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="pause additional2.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
