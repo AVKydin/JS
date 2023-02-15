@@ -39,13 +39,13 @@
 // let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
 {
     let str = 'Ревуть воли як ясла повні';
-    const stringToArray = (str)=> str.split(' ');
+    const stringToArray = (str) => str.split(' ');
     console.log(stringToArray(str))
 }
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
 {
-    const arr = [10,8,-7,55,987,-1011,0,1050,0];
-    const arrStr = arr.map(x=>x+"");
+    const arr = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
+    const arrStr = arr.map(x => x + "");
     console.log(arrStr);
 }
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
@@ -53,27 +53,39 @@
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 {
-    let nums = [11,21,3];
-    const sortNums = (nums, arg)=>{
-        if (arg==='ascending'){
+    let nums = [11, 21, 3, Infinity, 555, 1, 202, -Infinity];
 
+    console.log(nums);
+    const sortNums = (arr, direction) => {
+        if (direction === 'ascending') {
+            return arr.sort(foo);
+        } else if (direction === 'descending') {
+            return arr.sort(foo2);
         }
     }
+    const foo = (a, b) => a - b;
+    const foo2 = (a, b) => b - a;
+    console.log(sortNums(nums, 'ascending'));
+    console.log(sortNums(nums, 'descending'));
 }
-
 // ==========================
-// - є масив
-// let coursesAndDurationArray = [
-//     {title: 'JavaScript Complex', monthDuration: 5},
-//     {title: 'Java Complex', monthDuration: 6},
-//     {title: 'Python Complex', monthDuration: 6},
-//     {title: 'QA Complex', monthDuration: 4},
-//     {title: 'FullStack', monthDuration: 7},
-//     {title: 'Frontend', monthDuration: 4}
-// ];
+{// - є масив
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
 // -- відсортувати його за спаданням за monthDuration
+const sortCoursesAndDurationArray = (coursesAndDurationArray)=>{
+
+}
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
+
 // -- за допомоги map перетворити кожен елемент на наступний тип {id,title,monthDuration}
+}
 // =========================
 //     описати колоду карт (від 6 до туза без джокерів)
 // - знайти піковий туз

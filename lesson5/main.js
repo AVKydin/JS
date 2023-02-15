@@ -135,15 +135,52 @@ const exchange = (sumUAH, currencyValues, exchangeCurrency) => {
     }
 }
 
-console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', value: 42}, {currency: 'GBP',value: 49}], 'EUR'));
+console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', value: 42}, {
+    currency: 'GBP',
+    value: 49
+}], 'USD'));
 
 
+/*additional*/
+// - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
+//     Двожина масиву від 2 до 100
+// EXAMPLE:
+//     [1,0,6,0,3] => [1,6,3,0,0]
+//     [0,1,2,3,4] => [1,2,3,4,0]
+//     [0,0,1,0]   => [1,0,0,0]
 
+{
+    /*version №1*/
+    const sortArr = (arr) => {
+        const arrSort = []
+        for (const item of arr) {
+            if (item !== 0) {
+                arrSort[arrSort.length] = item;
+            }
+        }
+        for (const item of arr) {
+            if (item === 0) {
+                arrSort[arrSort.length] = item;
+            }
+        }
+        return arrSort;
+    }
 
+    /*version №2*/
 
-
-
-
+    // const sortArr = (arr) => {
+    //     for (const item of arr) {
+    //         if (item === 0) {
+    //             let a = arr.splice(arr.indexOf(item), 1);
+    //             arr = arr.concat(a);
+    //         }
+    //     }
+    //     return arr;
+    // }
+    console.log(sortArr([1, 0, 6, 0, 3]));
+    console.log(sortArr([0, 1, 2, 3, 4]));
+    console.log(sortArr([0, 0, 1, 0]));
+}
 
 
 
