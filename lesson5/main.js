@@ -182,8 +182,20 @@ console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', val
     console.log(sortArr([0, 0, 1, 0]));
 }
 
+//Створити функцію, яка  якщо приймає один аргумент, то просто його виводить, якщо два, то конкатенує їх
+{
+    function sumAll() {
 
+        if (arguments.length === 1) {
+            return arguments[0];
+        } else {
+            return arguments[0] + arguments[1]
+        }
+    }
 
+    console.log(sumAll(1, 5));
+    console.log(sumAll(1));
+}
 
 
 
