@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="додаткове з 5-го та декілька з 6-го" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="+1 додаткове з 5-го">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +85,9 @@
       <workItem from="1676449555589" duration="7393000" />
       <workItem from="1676466070438" duration="951000" />
       <workItem from="1676488603810" duration="2881000" />
+      <workItem from="1676498331351" duration="1180000" />
+      <workItem from="1676548580362" duration="3166000" />
+      <workItem from="1676624211215" duration="10402000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -300,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676491552714</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="+1 додаткове з 5-го">
+      <created>1676499529958</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676499529958</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +331,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed the error HWL1" />
     <MESSAGE value="start HWL2" />
     <MESSAGE value="added a task HWL2" />
     <MESSAGE value="that's all for today" />
@@ -343,7 +355,8 @@
     <MESSAGE value="виконав трохи додаткових тасків" />
     <MESSAGE value="переробив ДЗ №4 без цукрових функцій" />
     <MESSAGE value="додаткове з 5-го та декілька з 6-го" />
-    <option name="LAST_COMMIT_MESSAGE" value="додаткове з 5-го та декілька з 6-го" />
+    <MESSAGE value="+1 додаткове з 5-го" />
+    <option name="LAST_COMMIT_MESSAGE" value="+1 додаткове з 5-го" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
