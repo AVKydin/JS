@@ -164,7 +164,7 @@
     console.log(allDiamond);
 // - всі трефи від 9 та більше
     const allClubsGreterNine = deckOfCards.filter(cours =>{
-        if (cours.value>=9 || typeof cours.value==='string'){
+        if (cours.cardSuit === 'clubs' && (cours.value>=9 || typeof cours.value==='string')){
             return cours;
         }
     })
