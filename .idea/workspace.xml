@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="завершив ДЗ №6" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="доробив завдання із трефами більшими за 9 ДЗ №6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +85,7 @@
       <workItem from="1676498331351" duration="1180000" />
       <workItem from="1676548580362" duration="3166000" />
       <workItem from="1676624211215" duration="10787000" />
+      <workItem from="1676641523237" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -317,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676638699290</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="доробив завдання із трефами більшими за 9 ДЗ №6">
+      <created>1676642452517</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1676642452517</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a task HWL2" />
     <MESSAGE value="that's all for today" />
     <MESSAGE value="end HWL2" />
     <MESSAGE value="edits HWL2" />
@@ -360,7 +367,8 @@
     <MESSAGE value="додаткове з 5-го та декілька з 6-го" />
     <MESSAGE value="+1 додаткове з 5-го" />
     <MESSAGE value="завершив ДЗ №6" />
-    <option name="LAST_COMMIT_MESSAGE" value="завершив ДЗ №6" />
+    <MESSAGE value="доробив завдання із трефами більшими за 9 ДЗ №6" />
+    <option name="LAST_COMMIT_MESSAGE" value="доробив завдання із трефами більшими за 9 ДЗ №6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
