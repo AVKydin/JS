@@ -1,3 +1,4 @@
+console.log('************************************')
 // 1) Створити масив з 20 чисел та:
 //     a) відсортувати його від меншого до більшого.
 //     b) відсортувати його від більшого до меншого.
@@ -71,7 +72,7 @@
 // - сили більше 250  + виробник бмв
 //
 //
-// - взять слдующий массив
+// - взяти наступний масив
 // const usersWithAddress = [
 //     {id: 9, name: 'vasya', age: 31, isMarried: false, address: {city: 'Kyiv', street: 'Gongadze', number: 16}},
 //     {id: 2, name: 'petya', age: 30, isMarried: true, address: {city: 'Rivne', street: 'Zelena', number: 1}},
