@@ -31,6 +31,7 @@ console.log('*********************************************')
 const sortUsersId = arrUsers.sort((a, b) => a.id - b.id);
 console.log(sortUsersId);
 console.log('*********************************************')
+
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 class Client {
     constructor(id, name, surname, email, phone, order) {
@@ -82,16 +83,16 @@ function Car(model, manufacturer, yearOfManufacture, maxSpeed, engineVolume) {
     this.drive = function () {
         return `їдемо зі швидкістю ${maxSpeed} на годину`;
     };
-    this.info = function (){
+    this.info = function () {
         return `model - ${model}, manufacturer - ${manufacturer}, yearOfManufacture - ${yearOfManufacture}, maxSpeed - ${maxSpeed}, engineVolume - ${engineVolume}`
     };
-    this.increaseMaxSpeed = function (newSpeed){
-        this.maxSpeed+=newSpeed;
+    this.increaseMaxSpeed = function (newSpeed) {
+        this.maxSpeed += newSpeed;
     }
-    this.changeYear = function (newValue){
+    this.changeYear = function (newValue) {
         this.yearOfManufacture = newValue;
     }
-    this.addDriver = function (driver){
+    this.addDriver = function (driver) {
         this.driver = driver;
     }
 }
@@ -114,9 +115,9 @@ console.log('*********************************************')
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 
- class Carr {
+class Carr {
 
-    constructor(model, manufacturer, yearOfManufacture, maxSpeed, engineVolume){
+    constructor(model, manufacturer, yearOfManufacture, maxSpeed, engineVolume) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.yearOfManufacture = yearOfManufacture;
@@ -124,22 +125,27 @@ console.log('*********************************************')
         this.engineVolume = engineVolume;
     }
 
-     drive() {
-         return `їдемо зі швидкістю ${this.maxSpeed} на годину`;
-     };
-     info(){
-         return `model - ${this.model}, manufacturer - ${this.manufacturer}, yearOfManufacture - ${this.yearOfManufacture}, maxSpeed - ${this.maxSpeed}, engineVolume - ${this.engineVolume}`
-     };
-     increaseMaxSpeed(newSpeed){
-         this.maxSpeed+=newSpeed;
-     }
-     changeYear(newValue){
-         this.yearOfManufacture = newValue;
-     }
-     addDriver(driver){
-         this.driver = driver;
-     }
+    drive() {
+        return `їдемо зі швидкістю ${this.maxSpeed} на годину`;
+    };
+
+    info() {
+        return `model - ${this.model}, manufacturer - ${this.manufacturer}, yearOfManufacture - ${this.yearOfManufacture}, maxSpeed - ${this.maxSpeed}, engineVolume - ${this.engineVolume}`
+    };
+
+    increaseMaxSpeed(newSpeed) {
+        this.maxSpeed += newSpeed;
+    }
+
+    changeYear(newValue) {
+        this.yearOfManufacture = newValue;
+    }
+
+    addDriver(driver) {
+        this.driver = driver;
+    }
 }
+
 const carr = new Carr('dsf', 'sdfsdfsdfsdf', 1995, 150, 3);
 console.log(carr)
 console.log(carr.drive());
@@ -152,8 +158,54 @@ console.log(carr);
 console.log('*********************************************')
 
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
+class Cinderella {
+    constructor(name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+    }
+}
+
+const arrCinderellas = [];
+arrCinderellas.push(new Cinderella('Cinderella', 12, 15));
+arrCinderellas.push(new Cinderella('Cinderella', 13, 16));
+arrCinderellas.push(new Cinderella('Cinderella', 14, 16));
+arrCinderellas.push(new Cinderella('Cinderella', 15, 18));
+arrCinderellas.push(new Cinderella('Cinderella', 16, 19));
+arrCinderellas.push(new Cinderella('Cinderella', 17, 23));
+arrCinderellas.push(new Cinderella('Cinderella', 18, 17));
+arrCinderellas.push(new Cinderella('Cinderella', 54, 45));
+arrCinderellas.push(new Cinderella('Cinderella', 72, 22));
+arrCinderellas.push(new Cinderella('Cinderella', 91, 21));
+console.log(arrCinderellas)
+
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+function Prince(name, age, shoeHeFound) {
+    this.name = name;
+    this.age = age;
+    this.shoeHeFound = shoeHeFound;
+
+    this.find = function (shoeHeFound) {
+        return arrCinderellas.find((cinderella) => shoeHeFound === cinderella.footSize);
+    }
+
+}
+
+const prince = new Prince('Prince Charming', 19, 17)
+const prince2 = new Prince('Prince Charming777', 91, 22)
+console.log(prince.find(prince.shoeHeFound));
+console.log(prince2.find(prince2.shoeHeFound));
+
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+function findCinderella (shoeHeFound) {
+    for (const cinderella of arrCinderellas) {
+        if (shoeHeFound === cinderella.footSize) {
+            console.log(`він її знайшов!!! це ${cinderella.name},вік - ${cinderella.age} років, ${cinderella.footSize} розмір ноги`)
+        }
+    }
+}
+findCinderella(prince.shoeHeFound);
+
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
 
