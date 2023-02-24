@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="на сьогодні мабуть все по ДЗ №8">
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="закінчив ДЗ №8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
     </list>
@@ -96,7 +96,8 @@
       <workItem from="1676960088681" duration="7323000" />
       <workItem from="1677048537911" duration="5807000" />
       <workItem from="1677087068062" duration="5302000" />
-      <workItem from="1677138041567" duration="3098000" />
+      <workItem from="1677138041567" duration="3610000" />
+      <workItem from="1677223908372" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677093529592</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="закінчив ДЗ №8">
+      <created>1677141228640</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677141228640</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start additional tasks HWL3" />
     <MESSAGE value="for today, it is enough to complete the additional tasks of the third lesson" />
     <MESSAGE value="finished with the first additional tasks of the 3rd lesson" />
     <MESSAGE value="start additional2 tasks of the 3rd lesson" />
@@ -421,7 +428,8 @@
     <MESSAGE value="почав додаткові №6 additional_archive_kminV_Lesson6.js" />
     <MESSAGE value="крапля тренування по уроку 7" />
     <MESSAGE value="на сьогодні мабуть все по ДЗ №8" />
-    <option name="LAST_COMMIT_MESSAGE" value="на сьогодні мабуть все по ДЗ №8" />
+    <MESSAGE value="закінчив ДЗ №8" />
+    <option name="LAST_COMMIT_MESSAGE" value="закінчив ДЗ №8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
