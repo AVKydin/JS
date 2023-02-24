@@ -1,0 +1,21 @@
+.wrap{
+background-color: blueviolet;
+}
+.collapse{
+    border: 3px solid greenyellow;
+color: gray;
+}
+.alpha{
+    width: 200px;
+    margin-bottom: 5px;
+}
+.beta{
+    height: 200px;
+}
+
+.item{
+    border: 1px solid blue;
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+}
