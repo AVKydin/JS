@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="закінчив ДЗ №8">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="+1 додаткове №8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +95,7 @@
       <workItem from="1677087068062" duration="5302000" />
       <workItem from="1677138041567" duration="3610000" />
       <workItem from="1677223908372" duration="1302000" />
+      <workItem from="1677242569358" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -386,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677141228640</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="+1 додаткове №8">
+      <created>1677244880830</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677244880830</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,14 +402,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for today, it is enough to complete the additional tasks of the third lesson" />
     <MESSAGE value="finished with the first additional tasks of the 3rd lesson" />
     <MESSAGE value="start additional2 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional2 tasks of the 3rd lesson" />
@@ -429,7 +445,8 @@
     <MESSAGE value="крапля тренування по уроку 7" />
     <MESSAGE value="на сьогодні мабуть все по ДЗ №8" />
     <MESSAGE value="закінчив ДЗ №8" />
-    <option name="LAST_COMMIT_MESSAGE" value="закінчив ДЗ №8" />
+    <MESSAGE value="+1 додаткове №8" />
+    <option name="LAST_COMMIT_MESSAGE" value="+1 додаткове №8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
