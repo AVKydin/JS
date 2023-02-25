@@ -12,10 +12,10 @@ let cloneBlockDiv = blockDiv.cloneNode();
 document.body.appendChild(cloneBlockDiv);
 
 // - Є масив:
-    const arr = ['Main','Products','About us','Contacts']
+const arr = ['Main', 'Products', 'About us', 'Contacts']
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
-    let ul = document.createElement('ul');
-    document.body.appendChild(ul);
+let ul = document.createElement('ul');
+document.body.appendChild(ul);
 for (const element of arr) {
     let li = document.createElement('li');
     li.innerText = element;
@@ -23,7 +23,7 @@ for (const element of arr) {
 }
 
 // - Є масив
- let coursesAndDurationArray = [
+let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
     {title: 'Java Complex', monthDuration: 6},
     {title: 'Python Complex', monthDuration: 6},
@@ -36,7 +36,7 @@ for (const element of arr) {
 
 for (const cours of coursesAndDurationArray) {
     let month;
-    if(cours.monthDuration===4){
+    if (cours.monthDuration === 4) {
         month = 'місяці';
     } else {
         month = 'місяців';
@@ -57,7 +57,7 @@ for (const cours of coursesAndDurationArray) {
 //
 for (const cours of coursesAndDurationArray) {
     let month;
-    if(cours.monthDuration===4){
+    if (cours.monthDuration === 4) {
         month = 'місяці';
     } else {
         month = 'місяців';
@@ -213,13 +213,121 @@ let coursesArray = [
 ];
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
+for (const cours of coursesArray) {
+    let div = document.createElement('div');
+    let h2 = document.createElement('h2');
+    h2.innerText = cours.title;
+    let spanMD = document.createElement('span');
+    spanMD.innerHTML = `кількість місяців - <b>${cours.monthDuration}</b>! `;
+    let spanHD = document.createElement('span');
+    spanHD.innerHTML = `кількість годин - <b>${cours.hourDuration}</b>!`;
+    let divUl = document.createElement('div')
+    let ul = document.createElement('ul');
+    document.body.appendChild(div);
+    div.appendChild(h2);
+    div.appendChild(spanMD);
+    div.appendChild(spanHD);
+    div.appendChild(divUl);
+    divUl.appendChild(ul);
+    ul.innerHTML = `<b><i>модулі курсу:</i></b>`
+    for (const module of cours.modules) {
+        let li = document.createElement('li');
+        ul.appendChild(li);
+        li.innerText = module;
+    }
+}
 // ------------------
 //
 //     - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
-//
+let divContainer = document.createElement('div')
+let arbitraryElement = document.createElement('div');
+arbitraryElement.classList = 'disappears';
+arbitraryElement.id = 'text'
+let btn = document.createElement('button');
+btn.innerText = 'Click'
+document.body.appendChild(divContainer);
+divContainer.append(btn, arbitraryElement)
+
+
+btn.addEventListener('click', function () {
+    let text = document.querySelector('#text');
+    if (!!text) {
+        text.remove();
+    } else {
+        divContainer.appendChild(arbitraryElement);
+    }
+
+    // arbitraryElement.classList.toggle('disappears')
+})
+
+
 //
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
 //
+let input = document.createElement('input');
+input.classList = 'inputAge'
+document.body.appendChild(input);
+let btnAge = document.createElement('button');
+btnAge.innerText = 'verify age'
+document.body.appendChild(btnAge);
+
+btnAge.addEventListener('click', function () {
+    if (input.value >= 18) {
+        alert('Заходь')
+    } else {
+        alert('Треба підрости ще')
+    }
+})
+
 // *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+let divTable = document.createElement('div')
+let input1 = document.createElement('input');
+let input2 = document.createElement('input');
+let input3 = document.createElement('input');
+let btnTable = document.createElement('button');
+btnTable.innerText = 'Create table';
+document.body.appendChild(divTable);
+divTable.append(input1, input2, input3, btnTable);
+btnTable.addEventListener('click', function () {
+        let table = document.createElement('table');
+        table.id = 'table'
+        let isTable = document.querySelector('#table')
+        if (!!isTable) {
+            isTable.remove();
+        }
+    if (input1.value > 50 || input2.value > 50) {
+        alert('Забагато комірок вийде');
+    } else {
+        divTable.appendChild(table);
+        for (let i = 0; i < input1.value; i++) {
+            let tr = document.createElement('tr');
+            table.appendChild(tr);
+            for (let j = 0; j < input2.value; j++) {
+                let td = document.createElement('td');
+                td.innerText = input3.value;
+                td.classList = 'td'
+                tr.appendChild(td);
+            }
+        }
+    }
+    input1.value = '';
+    input2.value = '';
+    input3.value = '';
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

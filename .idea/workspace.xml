@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="створив папку для уроку №9">
-      <change afterPath="$PROJECT_DIR$/lesson9/main.css" afterDir="false" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="виконав декілька завдань ДЗ №9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <workItem from="1677138041567" duration="3610000" />
       <workItem from="1677223908372" duration="1302000" />
       <workItem from="1677242569358" duration="2854000" />
-      <workItem from="1677266554950" duration="4161000" />
+      <workItem from="1677266554950" duration="5498000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -404,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677266801666</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="виконав декілька завдань ДЗ №9">
+      <created>1677274559880</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677274559931</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start additional2 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional2 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional3 tasks of the 3rd lesson" />
     <MESSAGE value="finished additional4 tasks of the 3rd lesson" />
@@ -459,7 +462,8 @@
     <MESSAGE value="закінчив ДЗ №8" />
     <MESSAGE value="+1 додаткове №8" />
     <MESSAGE value="створив папку для уроку №9" />
-    <option name="LAST_COMMIT_MESSAGE" value="створив папку для уроку №9" />
+    <MESSAGE value="виконав декілька завдань ДЗ №9" />
+    <option name="LAST_COMMIT_MESSAGE" value="виконав декілька завдань ДЗ №9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
