@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="перше виконав, друге частково... ДЗ №10">
-      <change afterPath="$PROJECT_DIR$/lesson10/sessions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/sessions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/maim.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/maim.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="виконав ДЗ №10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +101,7 @@
       <workItem from="1677359663345" duration="6893000" />
       <workItem from="1677402396075" duration="4182000" />
       <workItem from="1677441697562" duration="3182000" />
-      <workItem from="1677480322964" duration="11285000" />
+      <workItem from="1677480322964" duration="11416000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -439,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677369222615</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="виконав ДЗ №10">
+      <created>1677495167616</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677495167629</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="additional tasks" />
     <MESSAGE value="start HWL5" />
     <MESSAGE value="finished HWL5" />
     <MESSAGE value="pause" />
@@ -494,7 +493,8 @@
     <MESSAGE value="закінчив ДЗ №9" />
     <MESSAGE value="створив папку та файли html, js для ДЗ №10" />
     <MESSAGE value="перше виконав, друге частково... ДЗ №10" />
-    <option name="LAST_COMMIT_MESSAGE" value="перше виконав, друге частково... ДЗ №10" />
+    <MESSAGE value="виконав ДЗ №10" />
+    <option name="LAST_COMMIT_MESSAGE" value="виконав ДЗ №10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

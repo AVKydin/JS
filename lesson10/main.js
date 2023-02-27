@@ -1,5 +1,8 @@
 // Стоврити форму з трьома полями для name,sruname,age та кнопкою. При натисканні на кнопку зчитати данні з полів,
 //     та вивести об'єкт в документ. Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом
+let hr = document.createElement('hr');
+hr.style.marginTop = '20px';
+document.body.appendChild(hr);
 let form = document.createElement('form');
 let inputName = document.createElement('input');
 inputName.placeholder = `Введіть своє ім'я`;
@@ -18,7 +21,7 @@ document.body.appendChild(divText);
 
 a.addEventListener('click', function () {
     let h2 = document.createElement('h2');
-    h2.innerText = `Вітаю, ${inputSurname.value[0].toUpperCase()}${inputSurname.value.slice(1)} ${inputName.value[0].toUpperCase()}${inputName.value.slice(1)}, ${inputAge.value}р.!`
+    h2.innerText = `Вітаю, ${inputSurname.value[0].toUpperCase()}${inputSurname.value.slice(1)} ${inputName.value[0].toUpperCase()}${inputName.value.slice(1)}, ${inputAge.value}р. від народження!`
     divText.appendChild(h2);
     inputSurname.value = '';
     inputName.value = '';
@@ -26,9 +29,9 @@ a.addEventListener('click', function () {
 })
 // ==========================
 // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
-let hr = document.createElement('hr');
-hr.style.marginTop = '20px';
-document.body.appendChild(hr);
+let hr2 = document.createElement('hr');
+hr2.style.marginTop = '20px';
+document.body.appendChild(hr2);
 let blockNumber = document.createElement('div');
 blockNumber.classList = 'divBlock';
 let p = document.createElement('p');
@@ -52,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function (){
 // Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається інформація
 // про дату та час відвідування сторінки. Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати
 // всю інформацію про відвідування сторінки index.html. Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію
+
 let date = new Date();
 let day = date.getDate()
 let month = date.getMonth() + 1;
@@ -88,6 +92,16 @@ document.addEventListener("DOMContentLoaded", function () {
 // при завантажені сторінки з'являються перші 10 об'єктів.
 //     При натисканні next виводяться настпні 10 об'єктів
 // При натисканні prev виводяться попередні 10 об'єктів
+let btnBlock = document.createElement('div');
+btnBlock.style.marginTop = '30px'
+let prev = document.createElement('button');
+prev.innerText = 'Prev'
+let next = document.createElement('button');
+next.innerText = 'Next';
+let hr3 = document.createElement('hr');
+hr3.style.marginTop = '20px';
+document.body.appendChild(btnBlock);
+btnBlock.append(hr3, prev, next);
 
 const postsArr = [
     {
@@ -692,14 +706,7 @@ const postsArr = [
     }
 ];
 
-let btnBlock = document.createElement('div');
-btnBlock.style.marginTop = '30px'
-let prev = document.createElement('button');
-prev.innerText = 'Prev'
-let next = document.createElement('button');
-next.innerText = 'Next';
-document.body.appendChild(btnBlock);
-btnBlock.append(prev, next);
+
 
 
 let blockPosts = document.createElement('div');
