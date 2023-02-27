@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="перше виконав, друге частково... ДЗ №10">
-      <change afterPath="$PROJECT_DIR$/lesson10/maim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/sessions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/maim.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/maim.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -103,7 +105,10 @@
       <workItem from="1677242569358" duration="2854000" />
       <workItem from="1677266554950" duration="5498000" />
       <workItem from="1677325204716" duration="664000" />
-      <workItem from="1677359663345" duration="6690000" />
+      <workItem from="1677359663345" duration="6893000" />
+      <workItem from="1677402396075" duration="4182000" />
+      <workItem from="1677441697562" duration="3182000" />
+      <workItem from="1677480322964" duration="11285000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675112830878</created>
@@ -427,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677325899829</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="перше виконав, друге частково... ДЗ №10">
+      <created>1677369222615</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677369222615</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
