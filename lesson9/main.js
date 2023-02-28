@@ -8,8 +8,8 @@
 let blockDiv = document.createElement('div');
 blockDiv.classList = 'wrap collapse alpha beta';
 document.body.appendChild(blockDiv);
-let cloneBlockDiv = blockDiv.cloneNode();
-document.body.appendChild(cloneBlockDiv);
+document.body.appendChild(blockDiv.cloneNode(true));
+
 
 // - Є масив:
 const arr = ['Main', 'Products', 'About us', 'Contacts']
