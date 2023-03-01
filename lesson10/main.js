@@ -29,16 +29,14 @@ a.addEventListener('click', function () {
 })
 // ==========================
 // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
-let hr2 = document.createElement('hr');
-hr2.style.marginTop = '20px';
-document.body.appendChild(hr2);
+document.body.appendChild(hr.cloneNode(true))
 let blockNumber = document.createElement('div');
 blockNumber.classList = 'divBlock';
 let p = document.createElement('p');
 document.body.appendChild(blockNumber);
 blockNumber.appendChild(p);
 
-document.addEventListener("DOMContentLoaded", function (){
+document.addEventListener("DOMContentLoaded", function () {
     if (localStorage.getItem('counter')) {
         let counter = JSON.parse(localStorage.getItem('counter'))
         counter++
@@ -92,16 +90,15 @@ document.addEventListener("DOMContentLoaded", function () {
 // при завантажені сторінки з'являються перші 10 об'єктів.
 //     При натисканні next виводяться настпні 10 об'єктів
 // При натисканні prev виводяться попередні 10 об'єктів
+document.body.appendChild(hr.cloneNode(true))
 let btnBlock = document.createElement('div');
 btnBlock.style.marginTop = '30px'
 let prev = document.createElement('button');
 prev.innerText = 'Prev'
 let next = document.createElement('button');
 next.innerText = 'Next';
-let hr3 = document.createElement('hr');
-hr3.style.marginTop = '20px';
 document.body.appendChild(btnBlock);
-btnBlock.append(hr3, prev, next);
+btnBlock.append(prev, next);
 
 const postsArr = [
     {
@@ -707,8 +704,6 @@ const postsArr = [
 ];
 
 
-
-
 let blockPosts = document.createElement('div');
 document.body.appendChild(blockPosts);
 let prevCount = 0;
@@ -747,11 +742,138 @@ prev.addEventListener('click', function () {
 })
 
 
+// *************Additional10****************
+
+document.body.appendChild(hr.cloneNode(true))
+
+// - Сворити масив не цензцрних слів.
+const badWords = ["блять", "їбати", "хуйло", "пизда", "нахуй", "хуй", "сука", "єбать", "єблі", "ебать", "ебало", "хуїв",
+    "залупа", "дрочити", "мудак", "еблан", "заєбати", "до пізди", "доїбуватися", "дохуя", "нахал", "дідько", "дурень",
+    "блуд", "блядство", "гімно", "гондон", "жопа", "курва", "лох", "манда", "мудло", "недоєбок", "пізда", "піздюк",
+    "хитровипадковий", "розпиздяй", "скотина", "целка", "шлюха"];
+//     Сворити інпут текстового типу.
+let input = document.createElement('input');
+input.type = 'text';
+input.placeholder = 'Введіть слово'
+let button = document.createElement('button');
+button.innerText = 'Перевірити слово'
+let span = document.createElement('span');
+span.innerText = `масив мені люб'язно надав чат gpt. І, як він сказав, - 'Це не повний список нецензурних слів, а лише деякі з них'. `
+document.body.append(input, button, span);
+//     Якщо людина вводить слово і воно міститься в масиві не цензурних слів
+// кинути алерт з попередженням.
+// Перевірку робити при натисканні на кнопку
+
+button.addEventListener('click', function () {
+    for (const word of badWords) {
+        if (input.value === word) {
+            alert(`Попередження! За лихослів'я задонать на ЗСУ!`)
+        }
+    }
+})
+
+//
+document.body.appendChild(hr.cloneNode(true))
+// - Сворити масив не цензцрних слів.
+//     Сворити інпут текстового типу.
+//     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
+//     Кинути алерт з попередженням у випадку якщо містить.
+//     Перевірку робити при натисканні на кнопку
+//
+let inputSentence = document.createElement('input')
+inputSentence.type = 'text';
+inputSentence.placeholder = 'Введіть речення'
+let btnSentence = document.createElement('button');
+btnSentence.innerText = 'Перевірити речення';
+document.body.append(inputSentence, btnSentence, span.cloneNode(true));
+btnSentence.addEventListener('click', function () {
+    let wordArr = inputSentence.value.split(' ');
+    for (const word of badWords) {
+        for (const string of wordArr) {
+            if (string === word) {
+                alert(`Попередження! За лихослів'я задонать на ЗСУ!`)
+            }
+        }
+    }
+
+})
+//
+document.body.appendChild(hr.cloneNode(true))
+//
+// - Створіть меню, яке розгортається/згортається при кліку
+let menu = document.createElement('div');
+let menuBlock = document.createElement('p');
+menuBlock.innerText = 'меню';
+let mainPage = document.createElement('a');
+mainPage.innerText = 'головна ';
+mainPage.href = '#';
+let contactsPage = document.createElement('a');
+contactsPage.innerText = 'контакти';
+contactsPage.href = '#';
+let ourServicesPage = document.createElement('a');
+ourServicesPage.innerText = 'наші послуги';
+ourServicesPage.href = '#';
+menu.classList.add('menu_rolled_up');
+document.body.appendChild(menu);
+menu.append(menuBlock, mainPage, contactsPage, ourServicesPage);
+menu.addEventListener("click", function (){
+    menu.classList.toggle('menu');
+    menu.classList.toggle('menu_rolled_up');
+    menuBlock.classList.toggle('p_none');
+})
+//
+document.body.appendChild(hr.cloneNode(true))
+// - Створити список коментарів, приклад об'екта коментар - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
+//     Вивести список коментарів в документ, кожен в окремому блоці.
+//     Добавте кожному коментарю по кнопці для згортання его body.
 
 
 
-
-
+document.body.appendChild(hr.cloneNode(true))
+// - Создайте кнопку, при клике на которую, она будет скрывать сама себя.
+//
+//
+//
+document.body.appendChild(hr.cloneNode(true))
+// - Описати скріпт, котрий, якщо доєднати до будь-якої сторінки дозволить зробити наступне:
+//     При лівому кліку миші вивести в консоль інформацію про блок або елемент на який відбувся клік.
+//     Інформація яку потрібно вивести: Назва тегу, список класів, список ід, розміри в форматі висота*ширина
+document.body.appendChild(hr.cloneNode(true))
+// - Описати скріпт, котрий, якщо доєднати до будь-якої сторінки дозволить зробити наступне:
+//     При лівому кліку миші  зробить popup (спливаючий блок) в якому буде вся інформація про блок.
+//     Інформація яку потрібно вивести в popup: Назва тегу, список класів, список ід, розміри в форматі висота*ширина
+document.body.appendChild(hr.cloneNode(true))
+// -- взять массив пользователей
+// let usersWithAddress = [
+//     {id:1,name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+//     {id:2,name: 'petya', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 1}},
+//     {id:3,name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}},
+//     {id:4,name: 'olya', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 90}},
+//     {id:5,name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
+//     {id:6,name: 'anya', age: 31, status: false, address: {city: 'Kyiv', street: 'Shevchenko', number: 2}},
+//     {id:7,name: 'oleg', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 22}},
+//     {id:8,name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 43}},
+//     {id:9,name: 'masha', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 12}},
+//     {id:10,name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+//     {id:11,name: 'max', age: 31, status: true, address: {city: 'Ternopil', street: 'Shevchenko', number: 121}}
+// ];
+// - Создать три чекбокса. Каждый из них активирует фильтр для вышеуказаного массива. Фильтры могут работать как вместе так и по отдельности.
+// 1й - отфильтровывает пользователей со статусом false (осталяет со статусом false)
+// 2й - оставляет старше 29 лет включительно
+// 3й - оставляет тех у кого город киев
+// Данные выводить в документ
+//
+document.body.appendChild(hr.cloneNode(true))
+//
+// *****(Прям овердоз с рекурсией) Создать функцию которая принимает какой-либо элемент DOM-структуры .Функция создает в боди 2 кнопки (назад/вперед)
+// при нажатии вперед, вы переходите к дочернему элементу, при еще одном нажатии на "вперед", вы переходите к следующему дочернему элементу (лежащему на одном уровне)
+// НО если у (какого-либо)дочеренего элемента есть дети, то нажатие "вперед" позволяет нам войти внутрь элемента и  выводит первого ребенка. и тд.
+//     Когда все дети заканчиваются, мы выходим из данного дочернего элемента и переходим к следующему, лежащему с ним на одном уровне
+document.body.appendChild(hr.cloneNode(true))
+// - Напишите «Карусель» – ленту изображений, которую можно листать влево-вправо нажатием на стрелочки.
+document.body.appendChild(hr.cloneNode(true))
+//     Завдання важке для розуміння, але дуже легке в реалізації. Тут треба буде погуглити
+// *** При виділені сегменту тексту на сторінці він стає жирний/курсивний/або якось іншим способом змінює свій стан
 
 
 
