@@ -1,3 +1,8 @@
+
+/*body{*/
+/*    position: relative;*/
+/*}*/
+
 .divBlock{
     width: 200px;
     height: 200px;
@@ -26,27 +31,44 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    transition: 0.5s;
+    padding-left: 10px;
     overflow: hidden;
 }
 
 .menu{
     margin: 0 auto;
     width: 200px;
-    height: 100px;
+    height: 75px;
     border: 0.5px solid silver;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    transition: 0.5s;
+    padding-left: 10px;
+    overflow: hidden;
+    position: relative;
 }
 
 p{
     margin: 0;
     padding: 0;
+    transition: 2s;
 }
 .p_none{
     display: none;
+    /*transition: 2s;*/
 }
 
 a{
     width: 100px;
+}
+
+.blockInfo{
+    width: 200px;
+
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 2;
 }

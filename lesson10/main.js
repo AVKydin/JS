@@ -816,7 +816,7 @@ ourServicesPage.href = '#';
 menu.classList.add('menu_rolled_up');
 document.body.appendChild(menu);
 menu.append(menuBlock, mainPage, contactsPage, ourServicesPage);
-menu.addEventListener("click", function (){
+menu.addEventListener("click", function () {
     menu.classList.toggle('menu');
     menu.classList.toggle('menu_rolled_up');
     menuBlock.classList.toggle('p_none');
@@ -827,50 +827,205 @@ document.body.appendChild(hr.cloneNode(true))
 //     Вивести список коментарів в документ, кожен в окремому блоці.
 //     Добавте кожному коментарю по кнопці для згортання его body.
 
+const postsArray = [
+    {
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    }
+]
+
+for (const post of postsArray) {
+    const blockPosts = document.createElement('div');
+    const title = document.createElement('h3');
+    title.innerText = post.title;
+    const btnBody = document.createElement('button');
+    btnBody.innerText = 'roll up/unfold'
+    const body = document.createElement('p');
+    body.textContent = post.body;
+    document.body.appendChild(blockPosts);
+    blockPosts.append(title, btnBody, body);
+
+    btnBody.addEventListener('click', function () {
+        if (body.style.display === 'none') {
+            body.style.display = 'block';
+        } else {
+            body.style.display = 'none';
+        }
+    })
+}
 
 
 document.body.appendChild(hr.cloneNode(true))
-// - Создайте кнопку, при клике на которую, она будет скрывать сама себя.
-//
-//
+// - Створіть кнопку, при клікі на яку, вона буде приховувати сама себе.
+const btnRoll = document.createElement('button');
+btnRoll.innerText = 'Click'
+document.body.appendChild(btnRoll);
+btnRoll.addEventListener('click', function () {
+    btnRoll.style.display = 'none'
+})
 //
 document.body.appendChild(hr.cloneNode(true))
 // - Описати скріпт, котрий, якщо доєднати до будь-якої сторінки дозволить зробити наступне:
 //     При лівому кліку миші вивести в консоль інформацію про блок або елемент на який відбувся клік.
 //     Інформація яку потрібно вивести: Назва тегу, список класів, список ід, розміри в форматі висота*ширина
+addEventListener('click', function (e) {
+    console.log(`ім'я тегу - ${e.target.localName},список класів - ${e.target.classList}, список ід - ${e.target.id}, розміри елементу ${e.target.clientHeight} x ${e.target.clientWidth}`)
+})
 document.body.appendChild(hr.cloneNode(true))
 // - Описати скріпт, котрий, якщо доєднати до будь-якої сторінки дозволить зробити наступне:
 //     При лівому кліку миші  зробить popup (спливаючий блок) в якому буде вся інформація про блок.
 //     Інформація яку потрібно вивести в popup: Назва тегу, список класів, список ід, розміри в форматі висота*ширина
+
+const blockInfo = document.createElement('div');
+const nameTag = document.createElement('h3');
+const classList = document.createElement("p");
+const idList = document.createElement("p");
+const dimensions = document.createElement("p");
+document.body.appendChild(blockInfo);
+addEventListener('click', function (e) {
+    nameTag.innerText = `Назва тегу - "${e.target.localName}"`;
+    classList.innerText = `список класів - ${e.target.classList}`
+    idList.innerText = `список ід - ${e.target.id}`;
+    dimensions.innerText = `розміри - ${e.target.clientHeight}px X ${e.target.clientWidth}px`
+
+    blockInfo.classList.add('blockInfo')
+    blockInfo.style.top = `${e.pageY}px`;
+    blockInfo.style.left = `${e.pageX}px`;
+
+    blockInfo.append(nameTag, classList, idList, dimensions);
+
+})
+
 document.body.appendChild(hr.cloneNode(true))
-// -- взять массив пользователей
-// let usersWithAddress = [
-//     {id:1,name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
-//     {id:2,name: 'petya', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 1}},
-//     {id:3,name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}},
-//     {id:4,name: 'olya', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 90}},
-//     {id:5,name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
-//     {id:6,name: 'anya', age: 31, status: false, address: {city: 'Kyiv', street: 'Shevchenko', number: 2}},
-//     {id:7,name: 'oleg', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 22}},
-//     {id:8,name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 43}},
-//     {id:9,name: 'masha', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 12}},
-//     {id:10,name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
-//     {id:11,name: 'max', age: 31, status: true, address: {city: 'Ternopil', street: 'Shevchenko', number: 121}}
-// ];
-// - Создать три чекбокса. Каждый из них активирует фильтр для вышеуказаного массива. Фильтры могут работать как вместе так и по отдельности.
-// 1й - отфильтровывает пользователей со статусом false (осталяет со статусом false)
-// 2й - оставляет старше 29 лет включительно
-// 3й - оставляет тех у кого город киев
-// Данные выводить в документ
-//
+// -- взяти масив користувачів
+let usersWithAddress = [
+    {id: 1, name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+    {id: 2, name: 'petya', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 1}},
+    {id: 3, name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}},
+    {id: 4, name: 'olya', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 90}},
+    {id: 5, name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
+    {id: 6, name: 'anya', age: 31, status: false, address: {city: 'Kyiv', street: 'Shevchenko', number: 2}},
+    {id: 7, name: 'oleg', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 22}},
+    {id: 8, name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 43}},
+    {id: 9, name: 'masha', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 12}},
+    {id: 10, name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+    {id: 11, name: 'max', age: 31, status: true, address: {city: 'Ternopil', street: 'Shevchenko', number: 121}}
+];
+// - Створити три чекбокса. Кожен з них активує фільтр для вищезгаданого масиву. Фільтри можуть працювати як разом, так і окремо.
+// 1й - відфільтровує користувачів зі статусом false (залишає зі статусом false)
+
+const foo = function (users, check) {
+    let userBlock;
+    for (const user of users) {
+        userBlock = document.createElement('div');
+        userBlock.style.border = '1px solid black';
+        userBlock.style.width = '220px';
+        userBlock.style.margin = '10px';
+
+        block.appendChild(userBlock);
+        const userName = document.createElement('h3');
+        userName.innerText = `name - ${user.name}`;
+        const userId = document.createElement('p');
+        userId.innerText = `id - ${user.id}`;
+        const userAge = document.createElement('p');
+        userAge.innerText = `age - ${user.age}`;
+        const userStatus = document.createElement('p');
+        userStatus.innerText = `status - ${user.status}`;
+        const userAddress = document.createElement('p');
+        userAddress.innerText = `address - ${user.address.city}, ${user.address.street}, ${user.address.number} `
+
+        userBlock.append(userName, userId, userAge, userStatus, userAddress)
+        if (check === checkKyiv) {
+            userBlock.classList.add('checkKyiv');
+        }
+        if (check === checkAge) {
+            userBlock.classList.add('checkAge');
+        }
+        if (check === checkFalse) {
+            userBlock.classList.add('checkFalse');
+        }
+    }
+}
+
+const checkFalse = document.createElement('input');
+checkFalse.setAttribute('type', 'checkbox');
+const labelCheckFalse = document.createElement('span');
+labelCheckFalse.innerText = 'status - false';
+checkFalse.addEventListener('click', function () {
+    if (checkFalse.checked) {
+        const usersFalse = usersWithAddress.filter(user => !user.status);
+        foo(usersFalse, checkFalse);
+    } else {
+        const checkFalseArr = document.querySelectorAll('.checkFalse');
+        for (let i = 0; i < checkFalseArr.length; i++) {
+            checkFalseArr[i].remove()
+        }
+    }
+})
+
+// 2й - залишає старше 29 років включно
+const checkAge = document.createElement('input')
+checkAge.setAttribute('type', 'checkbox');
+const labelcheckAge = document.createElement('span');
+labelcheckAge.innerText = 'Age>=29'
+checkAge.addEventListener('click', function () {
+    if (checkAge.checked) {
+        const usersAge = usersWithAddress.filter(user => user.age >= 29)
+        foo(usersAge, checkAge);
+    } else {
+        const checkAgeArr = document.querySelectorAll('.checkAge');
+        for (let i = 0; i < checkAgeArr.length; i++) {
+            checkAgeArr[i].remove()
+        }
+    }
+})
+// 3й - залишає тих у кого місто Київ
+const checkKyiv = document.createElement('input')
+checkKyiv.setAttribute('type', 'checkbox');
+const labelCheckKyiv = document.createElement('span');
+labelCheckKyiv.innerText = 'city - Kyiv'
+document.body.append(checkFalse, labelCheckFalse, checkAge, labelcheckAge, checkKyiv, labelCheckKyiv)
+checkKyiv.addEventListener('click', function () {
+    if (checkKyiv.checked) {
+        const usersKyiv = usersWithAddress.filter(user => user.address.city === 'Kyiv')
+        foo(usersKyiv, checkKyiv);
+    } else {
+        const checkKyivArr = document.querySelectorAll('.checkKyiv');
+        for (let i = 0; i < checkKyivArr.length; i++) {
+            checkKyivArr[i].remove()
+        }
+    }
+})
+const block = document.createElement('div');
+document.body.appendChild(block);
+block.style.display = 'flex';
+block.style.flexWrap = 'wrap';
+
+// Дані виводити у документ
+
 document.body.appendChild(hr.cloneNode(true))
-//
-// *****(Прям овердоз с рекурсией) Создать функцию которая принимает какой-либо элемент DOM-структуры .Функция создает в боди 2 кнопки (назад/вперед)
-// при нажатии вперед, вы переходите к дочернему элементу, при еще одном нажатии на "вперед", вы переходите к следующему дочернему элементу (лежащему на одном уровне)
-// НО если у (какого-либо)дочеренего элемента есть дети, то нажатие "вперед" позволяет нам войти внутрь элемента и  выводит первого ребенка. и тд.
-//     Когда все дети заканчиваются, мы выходим из данного дочернего элемента и переходим к следующему, лежащему с ним на одном уровне
+// *****(Прям овердоз с рекурсией) Створити функцію яка приймає якийсь елемент DOM-структури. Функція створює в боді 2 кнопки (назад/вперед)
+// При натисканні вперед, ви переходите до дочірнього елемента, при ще одному натисканні на "вперед", ви переходите до наступного дочірнього елемента (що лежить на одному рівні)
+// А якщо у будь-якого дочернього елемента є діти, то натискання "вперед" дозволяє нам увійти всередину елемента і виводить першу дитину. і т.д.
+// Коли всі діти закінчуються, ми виходимо з даного дочірнього елемента і переходимо до наступного, що лежить з ним на одному рівні
 document.body.appendChild(hr.cloneNode(true))
-// - Напишите «Карусель» – ленту изображений, которую можно листать влево-вправо нажатием на стрелочки.
+// - Напишіть «Карусель» – стрічку зображень, яку можна перегортати ліворуч-праворуч натисканням на стрілочки.
 document.body.appendChild(hr.cloneNode(true))
 //     Завдання важке для розуміння, але дуже легке в реалізації. Тут треба буде погуглити
 // *** При виділені сегменту тексту на сторінці він стає жирний/курсивний/або якось іншим способом змінює свій стан
