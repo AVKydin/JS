@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="залишилось три додаткових тасків ДЗ №10">
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="перейменував lesson11 на lesson12">
+      <change afterPath="$PROJECT_DIR$/lesson12/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/userInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -113,20 +117,8 @@
       <workItem from="1677783021644" duration="580000" />
       <workItem from="1677790065952" duration="1902000" />
       <workItem from="1677823974233" duration="12790000" />
-    </task>
-    <task id="LOCAL-00005" summary="fixed the error HWL1">
-      <created>1675200613572</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675200613572</updated>
-    </task>
-    <task id="LOCAL-00006" summary="start HWL2">
-      <created>1675200766082</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1675200766082</updated>
+      <workItem from="1677920048574" duration="3340000" />
+      <workItem from="1677949112195" duration="4921000" />
     </task>
     <task id="LOCAL-00007" summary="added a task HWL2">
       <created>1675202700342</created>
@@ -457,7 +449,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677791915309</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="не дороблені 3 таски ДЗ №10">
+      <created>1677920767541</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1677920767541</updated>
+    </task>
+    <task id="LOCAL-00055" summary="перейменував lesson11 на lesson12">
+      <created>1677920818050</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1677920818051</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,8 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pause additional2.js" />
-    <MESSAGE value="виконав трохи додаткових тасків" />
     <MESSAGE value="переробив ДЗ №4 без цукрових функцій" />
     <MESSAGE value="додаткове з 5-го та декілька з 6-го" />
     <MESSAGE value="+1 додаткове з 5-го" />
@@ -512,7 +516,9 @@
     <MESSAGE value="невеличка правка ДЗ №9" />
     <MESSAGE value="виконав декілька додаткових тасків ДЗ №10" />
     <MESSAGE value="залишилось три додаткових тасків ДЗ №10" />
-    <option name="LAST_COMMIT_MESSAGE" value="залишилось три додаткових тасків ДЗ №10" />
+    <MESSAGE value="не дороблені 3 таски ДЗ №10" />
+    <MESSAGE value="перейменував lesson11 на lesson12" />
+    <option name="LAST_COMMIT_MESSAGE" value="перейменував lesson11 на lesson12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
