@@ -1021,6 +1021,35 @@ block.style.flexWrap = 'wrap';
 
 document.body.appendChild(hr.cloneNode(true))
 // *****(Прям овердоз с рекурсией) Створити функцію яка приймає якийсь елемент DOM-структури. Функція створює в боді 2 кнопки (назад/вперед)
+const blocks = document.createElement('div');
+const fExp = function (html) {
+
+    const btnBack = document.createElement('button');
+    btnBack.innerHTML = 'назад'
+    const btnForward = document.createElement('button');
+    btnForward.innerHTML = 'вперед';
+    document.body.append(blocks, btnBack, btnForward)
+    let j = 0;
+
+    const f = function (cild) {
+        blocks.innerHTML = ''
+        const arrElem = cild;
+        const elem = arrElem[j];
+        console.log(arrElem[j])
+        blocks.appendChild(elem)
+        if (arrElem[j].children){
+            blocks.innerHTML = ''
+            f(arrElem[j].children)
+        }
+        j++;
+    }
+
+    btnForward.addEventListener('click', f)
+    // if(document.body.childNodes){
+    //     fExp(childNodes)
+    // }
+}
+fExp(document.body);
 // При натисканні вперед, ви переходите до дочірнього елемента, при ще одному натисканні на "вперед", ви переходите до наступного дочірнього елемента (що лежить на одному рівні)
 // А якщо у будь-якого дочернього елемента є діти, то натискання "вперед" дозволяє нам увійти всередину елемента і виводить першу дитину. і т.д.
 // Коли всі діти закінчуються, ми виходимо з даного дочірнього елемента і переходимо до наступного, що лежить з ним на одному рівні
@@ -1030,16 +1059,10 @@ document.body.appendChild(hr.cloneNode(true))
 //     Завдання важке для розуміння, але дуже легке в реалізації. Тут треба буде погуглити
 // *** При виділені сегменту тексту на сторінці він стає жирний/курсивний/або якось іншим способом змінює свій стан
 
-
-
-
-
-
-
-
-
-
-
+// document.body.onmouseup = function (){
+//    let select = window.getSelection().toString();
+//     document.execCommand('bold', false, null)
+// }
 
 
 
