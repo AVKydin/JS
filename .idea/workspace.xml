@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="перейменував lesson11 на lesson12">
-      <change afterPath="$PROJECT_DIR$/lesson12/userInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/userInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/users.js" afterDir="false" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="закінчив ДЗ№12">
+      <change afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +122,7 @@
       <workItem from="1677790065952" duration="1902000" />
       <workItem from="1677823974233" duration="12790000" />
       <workItem from="1677920048574" duration="3340000" />
-      <workItem from="1677949112195" duration="4921000" />
-    </task>
-    <task id="LOCAL-00007" summary="added a task HWL2">
-      <created>1675202700342</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1675202700342</updated>
+      <workItem from="1677949112195" duration="13199000" />
     </task>
     <task id="LOCAL-00008" summary="that's all for today">
       <created>1675292793582</created>
@@ -463,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677920818051</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="закінчив ДЗ№12">
+      <created>1677954920799</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1677954920799</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="переробив ДЗ №4 без цукрових функцій" />
     <MESSAGE value="додаткове з 5-го та декілька з 6-го" />
     <MESSAGE value="+1 додаткове з 5-го" />
     <MESSAGE value="завершив ДЗ №6" />
@@ -518,7 +521,8 @@
     <MESSAGE value="залишилось три додаткових тасків ДЗ №10" />
     <MESSAGE value="не дороблені 3 таски ДЗ №10" />
     <MESSAGE value="перейменував lesson11 на lesson12" />
-    <option name="LAST_COMMIT_MESSAGE" value="перейменував lesson11 на lesson12" />
+    <MESSAGE value="закінчив ДЗ№12" />
+    <option name="LAST_COMMIT_MESSAGE" value="закінчив ДЗ№12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

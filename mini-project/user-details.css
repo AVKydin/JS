@@ -1,0 +1,19 @@
+.userDiv{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userDiv button {
+    width: 90%;
+}
+
+.postsBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postBlock{
+    width: 19%;
+
+}
