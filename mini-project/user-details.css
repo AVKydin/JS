@@ -15,6 +15,8 @@ button{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.7s;
+    box-sizing: border-box;
+
 }
 
 button:hover{
@@ -61,4 +63,17 @@ button:hover{
 
 .btnDis:hover{
     background-color: red;
+}
+
+.aHome{
+    display: block;
+    width: 20%;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+.aHome button{
+    /*margin: 5px auto;*/
+    width: 100%;
+    box-sizing: border-box;
+
 }

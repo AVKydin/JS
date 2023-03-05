@@ -34,6 +34,13 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
         a.appendChild(button)
 
         document.body.appendChild(a)
+        const buttonHome = document.createElement('button');
+        buttonHome.innerHTML = 'На головну'
+        const aHome = document.createElement('a');
+        aHome.href = `index.html`;
+        aHome.classList.add('aHome');
+        aHome.appendChild(buttonHome);
+        document.body.append(aHome);
 
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
             .then(responce => responce.json())

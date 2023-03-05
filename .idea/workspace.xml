@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="почав міні-проект" />
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="закінчив міні-проект" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,13 +112,7 @@
       <workItem from="1677823974233" duration="12790000" />
       <workItem from="1677920048574" duration="3340000" />
       <workItem from="1677949112195" duration="13329000" />
-    </task>
-    <task id="LOCAL-00009" summary="end HWL2">
-      <created>1675321508096</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1675321508096</updated>
+      <workItem from="1678003748356" duration="6355000" />
     </task>
     <task id="LOCAL-00010" summary="edits HWL2">
       <created>1675340509451</created>
@@ -456,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677965161650</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="закінчив міні-проект">
+      <created>1678017070201</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1678017070202</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+1 додаткове з 5-го" />
     <MESSAGE value="завершив ДЗ №6" />
     <MESSAGE value="доробив завдання із трефами більшими за 9 ДЗ №6" />
     <MESSAGE value="трохи додаткових №6" />
@@ -511,7 +511,8 @@
     <MESSAGE value="перейменував lesson11 на lesson12" />
     <MESSAGE value="закінчив ДЗ№12" />
     <MESSAGE value="почав міні-проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="почав міні-проект" />
+    <MESSAGE value="закінчив міні-проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="закінчив міні-проект" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

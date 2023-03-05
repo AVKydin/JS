@@ -46,6 +46,16 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         const btn = document.createElement('button');
         btn.innerText = 'post of current user'
 
+        const buttonHome = document.createElement('button');
+        buttonHome.innerHTML = 'На головну'
+        const aHome = document.createElement('a');
+        aHome.href = `index.html`;
+        aHome.classList.add('aHome');
+        aHome.appendChild(buttonHome);
+        document.body.append(aHome);
+
+
+
         btn.onclick = function () {
             if (!!document.querySelector('.postsBlock')){
                 btn.disabled = true;
