@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="закінчив ДЗ№12">
-      <change afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/post-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/post-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/user-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/user-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2bcd5706-c91e-46c2-b1eb-cd7fb348adce" name="Changes" comment="почав міні-проект" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,14 +111,7 @@
       <workItem from="1677790065952" duration="1902000" />
       <workItem from="1677823974233" duration="12790000" />
       <workItem from="1677920048574" duration="3340000" />
-      <workItem from="1677949112195" duration="13199000" />
-    </task>
-    <task id="LOCAL-00008" summary="that's all for today">
-      <created>1675292793582</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675292793582</updated>
+      <workItem from="1677949112195" duration="13329000" />
     </task>
     <task id="LOCAL-00009" summary="end HWL2">
       <created>1675321508096</created>
@@ -467,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677954920799</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="почав міні-проект">
+      <created>1677965161650</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1677965161650</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="додаткове з 5-го та декілька з 6-го" />
     <MESSAGE value="+1 додаткове з 5-го" />
     <MESSAGE value="завершив ДЗ №6" />
     <MESSAGE value="доробив завдання із трефами більшими за 9 ДЗ №6" />
@@ -522,7 +510,8 @@
     <MESSAGE value="не дороблені 3 таски ДЗ №10" />
     <MESSAGE value="перейменував lesson11 на lesson12" />
     <MESSAGE value="закінчив ДЗ№12" />
-    <option name="LAST_COMMIT_MESSAGE" value="закінчив ДЗ№12" />
+    <MESSAGE value="почав міні-проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="почав міні-проект" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
